@@ -6,16 +6,16 @@ node {
     def RUN_ARTIFACT_DIR="tests/${BUILD_NUMBER}"
     def SFDC_USERNAME
 
-    // def HUB_ORG=env.HUB_ORG_DH
-    // def SFDC_HOST = env.SFDC_HOST_DH
-    // def JWT_KEY_CRED_ID = env.JWT_CRED_ID_DH
-    // def CONNECTED_APP_CONSUMER_KEY=env.CONNECTED_APP_CONSUMER_KEY_DH
+    def HUB_ORG=env.HUB_ORG_DH
+     def SFDC_HOST = env.SFDC_HOST_DH
+     def JWT_KEY_CRED_ID = env.JWT_CRED_ID_DH
+     def CONNECTED_APP_CONSUMER_KEY=env.CONNECTED_APP_CONSUMER_KEY_DH
 
 	
-    def HUB_ORG="pramod.demo@wex.com"
-    def SFDC_HOST = "https://wex-b-dev-ed.develop.lightning.force.com/"
-    def JWT_KEY_CRED_ID = "bb4f38c1-16c3-4c03-8839-39d377d78c86"
-    def CONNECTED_APP_CONSUMER_KEY="3MVG929eOx29turGGLS1BYXFXCJZZssxPLFN4jaRlCdLl3TscbF6QzpS4oJdujmq38McuXQt3ob1TlzRaN3vr"
+   // def HUB_ORG="pramod.demo@wex.com"
+   // def SFDC_HOST = "https://wex-b-dev-ed.develop.lightning.force.com/"
+   // def JWT_KEY_CRED_ID = "bb4f38c1-16c3-4c03-8839-39d377d78c86"
+   // def CONNECTED_APP_CONSUMER_KEY="3MVG929eOx29turGGLS1BYXFXCJZZssxPLFN4jaRlCdLl3TscbF6QzpS4oJdujmq38McuXQt3ob1TlzRaN3vr"
 
     println 'KEY IS' 
     println JWT_KEY_CRED_ID
